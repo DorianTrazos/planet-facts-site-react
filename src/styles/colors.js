@@ -1,0 +1,23 @@
+export const COLORS = {
+	dark: '#070724',
+	white: '#fff',
+	transparentWhite: 'rgb(255 255 255 / 0.1)',
+	darkGrey: '#38384F',
+	lightGrey: '#838391',
+	cyan: '#419EBB',
+	yellow: '#EDA249',
+	purple: '#6f2ed6',
+	tomato: '#D14C32',
+	red: '#D83A34',
+	orange: '#CD5120',
+	turquoise: '#1ec2a4',
+	blue: '#2d68f0',
+	mercury: '#DEF4FC',
+	venus: '#F7CC7F',
+	earth: '#545BFE',
+	mars: '#FF6A45',
+	jupiter: '#ECAD7A',
+	saturn: '#FCCB6B',
+	uranus: '#65F0D5',
+	neptune: '#497EFA'
+};

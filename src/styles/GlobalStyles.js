@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { COLORS } from './colors';
 import './normalize.css';
 export const GlobalStyles = createGlobalStyle`
     *,
@@ -25,9 +26,17 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        font-family: sans-serif;
         margin: 0;
-        background-color: #333;
+        color: ${COLORS.white};
+        font-family: "League Spartan", serif;
+        background-color: ${COLORS.dark}; 
+        background-image: url('/assets/background-stars.svg');
+        background-size: cover;
+    }
+
+    h1,h2,h3{
+        font-family: "Antonio", serif;
+        margin-block: 0;
     }
 
 `;
