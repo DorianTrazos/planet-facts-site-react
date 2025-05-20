@@ -12,6 +12,7 @@ const StyledTab = styled.li`
 	border-bottom: 4px solid
 		${({ $activeTab, $currentTab, $activeColor }) =>
 			$activeTab === $currentTab ? $activeColor : 'transparent'};
+	cursor: pointer;
 `;
 
 export { StyledTab, StyledTabs };
