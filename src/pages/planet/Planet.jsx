@@ -12,9 +12,10 @@ import {
 	StyledPlanetMainImage,
 	StyledPlanetMainImageContainer
 } from './planet.styles';
+import { TABS_INFO } from '../../constants/tabs';
 
 const Planet = ({ planetName }) => {
-	const [activeTab, setActiveTab] = useState(0);
+	const [activeTab, setActiveTab] = useState(TABS_INFO.STRUCTURE);
 	const planetInfo = PLANETS_INFO[planetName];
 	return (
 		<>
@@ -28,14 +29,14 @@ const Planet = ({ planetName }) => {
 
 				<StyledPlanetInfo>
 					<StyledPlanetMainImageContainer>
-						{activeTab !== 2 && (
+						{activeTab !== TABS_INFO.SURFACE && (
 							<StyledPlanetMainImage
 								src={planetInfo.images[activeTab]}
 								alt=''
 								$planetWith={planetInfo.planetWidth}
 							/>
 						)}
-						{activeTab === 2 && (
+						{activeTab === TABS_INFO.SURFACE && (
 							<>
 								<StyledPlanetMainImage
 									src={planetInfo.images[activeTab].main}

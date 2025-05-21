@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import Router from './router/Router';
+import Router from './lib/router/Router';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {

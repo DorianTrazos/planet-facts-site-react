@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-import { MENU_INFO } from '../constants/menu-info';
-import Home from '../pages/home/Home';
-import Planet from '../pages/planet/Planet';
+import { MENU_INFO } from '../../constants/menu-info';
+import Home from '../../pages/home/Home';
+import Planet from '../../pages/planet/Planet';
 
 const Router = () => {
 	return (

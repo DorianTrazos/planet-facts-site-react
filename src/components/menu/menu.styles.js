@@ -23,7 +23,7 @@ const StyledMenu = styled.ul`
 	height: calc(100vh - 70px);
 	padding-top: 43px;
 	background-color: ${COLORS.dark};
-	translate: ${({ $isOpen }) => ($isOpen ? '0' : '-100%')};
+	translate: ${({ $isOpen }) => ($isOpen ? '0' : '100%')};
 	transition: translate 0.3s;
 	z-index: 1;
 
